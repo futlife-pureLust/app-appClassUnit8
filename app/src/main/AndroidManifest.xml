@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppClassUnit8">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MyAdapter"></activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="新增聯絡人" />
+        <activity
+            android:name=".MainActivity"
+            android:label="XXXXX-第八章進階清單元件">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
