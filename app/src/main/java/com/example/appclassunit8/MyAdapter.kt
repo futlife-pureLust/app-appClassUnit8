@@ -19,7 +19,8 @@ class MyAdapter : AppCompatActivity() {
         setContentView(R.layout.adapter_row)
     }
 }*/
-class MyAdapter(private val contacts:ArrayList<Content>):RecyclerView.Adapter<MyAdapter.ViewHolder>(){
+//class MyAdapter(private val contacts:ArrayList<Content>) : RecyclerView.Adapter<MyAdapter.ViewHolder>(){ <- <Content>是錯的，正確的是<Contact>
+  class MyAdapter(private val contacts:ArrayList<Contact>) : RecyclerView.Adapter<MyAdapter.ViewHolder>(){
     //ViewHolder類別，用來緩存畫面中的元件
     class ViewHolder(v:View):RecyclerView.ViewHolder(v){
         //宣告並連結畫面元件

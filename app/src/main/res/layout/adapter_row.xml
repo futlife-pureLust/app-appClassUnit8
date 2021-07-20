@@ -22,6 +22,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
+        android:text="王小明"
+        android:textColor="#aaa"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/view"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,6 +35,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
+        android:text="09XX XXX XXX"
+        android:textColor="#aaa"
         app:layout_constraintStart_toEndOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/tv_name"
         tools:textSize="20sp" />
